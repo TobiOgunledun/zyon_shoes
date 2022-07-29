@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Righteous&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -17,6 +16,7 @@ body{
     color: #000;
     overflow-x: hidden;
     outline: hidden;
+    font-family: 'Quicksand', sans-serif;
 }
 img{
     width: 100%;
@@ -51,6 +51,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    font-family: 'Righteous', cursive;
 }
 nav label{
     font-weight: 700;
@@ -87,6 +88,7 @@ nav ul a{
     font-size: var(--large);
     text-transform: uppercase;
     font-weight: 800;
+    font-family: 'Righteous', cursive;
 }
 header{
     position: absolute;
@@ -154,8 +156,9 @@ header h1{
 }
 .heroImage{
     height: fit-content;
-    width: 80%;
+    width: 70%;
     margin: 1em auto;
+    transform: translateY(-10%);
 }
 .heroImage img{
     transform: scale(0);

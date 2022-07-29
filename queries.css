@@ -40,6 +40,7 @@
     }
     .heroImage{
         width: 40%;
+        transform: translateY(0);
     }
 }
 @media (min-width: 750px) and (max-width:989px){
@@ -83,5 +84,6 @@
     }
     .heroImage{
         width: 40%;
+        transform: translateY(0);
     }
 }
